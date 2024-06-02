@@ -4,7 +4,6 @@ WORKDIR /app
 
 COPY package*.json ./
 
-
 FROM base as dev
 
 RUN npm install
